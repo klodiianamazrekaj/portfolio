@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArrowUpRight } from "lucide-react"
 import VentureCard from "@/components/venture-card"
 import NewsletterSignup from "@/components/newsletter-signup"
 import Navigation from "@/components/navigation"
