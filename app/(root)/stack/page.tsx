@@ -8,8 +8,8 @@ export default function StackPage() {
 
             <div className="space-y-16">
                 <section>
-                    <h2 className="section-title">Stack</h2>
-                    <p className="section-subtitle text-gray-400">Tools & products I use daily.</p>
+                    <h1 className="text-4xl font-bold mb-4">Stack</h1>
+                    <p className="text-xl text-gray-400">Tools & products I use daily.</p>
                 </section>
 
                 <section className="group hover:bg-[#151134] -mx-4 px-4 py-2 rounded-lg transition-colors">

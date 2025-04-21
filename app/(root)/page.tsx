@@ -42,7 +42,7 @@ export default function Home() {
           <p className="section-subtitle text-gray-400">Businesses I&apos;m actively working on</p>
 
           <div className="mt-12 space-y-8">
-            <VentureCard title="Super Stack" description="Your AI tech stack decision-making." url="#" />
+            <VentureCard title="Super Stack - In Progress" description="Your AI tech stack decision-making." url="#" />
           </div>
         </section>
 
@@ -53,8 +53,11 @@ export default function Home() {
           </p>
 
           <div className="flex gap-4 mt-8">
-            <Link href="https://www.linkedin.com/in/klodiana-mazrekaj" className="p-2 border border-gray-800 rounded-lg hover:bg-gray-800/50 transition-colors">
-              <Image src="/images/linkedin.svg" alt="Linkedin" width={24} height={24} />
+            <Link href="https://www.linkedin.com/in/klodiana-mazrekaj" className="p-2 bg-[#302b63] border border-[#302b63] rounded-lg hover:bg-[#3d3678] transition-colors">
+              <Image src="/images/linkedin.svg" alt="Linkedin" width={28} height={28} />
+            </Link>
+            <Link href="https://github.com/klodiianamazrekaj" className="p-2 bg-[#302b63] border border-[#302b63] rounded-lg hover:bg-[#3d3678] transition-colors">
+              <Image src="/images/github.svg" alt="Github" width={28} height={28} />
             </Link>
           </div>
         </section>

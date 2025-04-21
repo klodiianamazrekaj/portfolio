@@ -10,7 +10,7 @@ export default function CursorPage() {
         <div className="max-w-6xl mx-auto p-6 md:p-12 lg:p-16">
             <button 
                 onClick={() => router.back()} 
-                className="flex items-center text-gray-400 hover:text-white transition-colors mb-16"
+                className="flex items-center text-gray-400 hover:text-white transition-colors mb-16 cursor-pointer"
             >
                 <ArrowLeft className="w-4 h-4 mr-2" />
                 Back
