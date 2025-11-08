@@ -56,6 +56,16 @@ export default function DevelopmentPage() {
                         </div>
 
                         <div>
+                            <h3 className="text-xl font-medium">TypeScript</h3>
+                            <p className="text-gray-400">- I use TypeScript almost for all of my projects. It&apos;s a great way to catch errors at compile time and improve code readability.</p>
+                        </div>
+
+                        <div>
+                            <h3 className="text-xl font-medium">PostgreSQL</h3>
+                            <p className="text-gray-400">- I use PostgreSQL for all of my database needs. It&apos;s a great relational database that is easy to use and scale.</p>
+                        </div>
+
+                        <div>
                             <h3 className="text-xl font-medium">Laravel</h3>
                             <p className="text-gray-400">- I use Laravel for all of my backend APIs. It&apos;s a great framework for building RESTful APIs quickly.</p>
                         </div>

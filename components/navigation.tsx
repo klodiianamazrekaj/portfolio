@@ -43,7 +43,7 @@ export default function Navigation() {
                         <Image src="/images/profile.jpg" alt="Profile" fill className="object-cover" />
                     </div>
                     <h1 className="text-xl font-bold whitespace-nowrap">Klodiana Mazrekaj</h1>
-                    <p className="text-gray-400 whitespace-nowrap">Software Developer</p>
+                    <p className="text-gray-400 whitespace-nowrap">Full-Stack Developer</p>
                 </div>
 
                 <nav>

@@ -1,6 +1,5 @@
 import Link from "next/link"
 import VentureCard from "@/components/venture-card"
-import NewsletterSignup from "@/components/newsletter-signup"
 import Navigation from "@/components/navigation"
 import Image from "next/image"
 
@@ -15,26 +14,10 @@ export default function Home() {
           <p className="text-lg mb-4">
             Building the future of tech stack decision-making at <span className="font-medium cursor-pointer">Super Stack</span>.
           </p>
-          <p className="text-gray-300">
-            I enjoy sharing my experiences <span className="font-medium">through writing.</span>
-          </p>
         </section>
 
         <section className="mb-28">
-          <h2 className="section-title">The Letter</h2>
-          <p className="text-gray-300">
-            Documenting the process of <span className="font-medium">building my business</span>. Sharing lessons I
-            learn and interesting resources I find.
-          </p>
-
-          <div className="mt-8">
-            <NewsletterSignup />
-          </div>
-        </section>
-
-        <section className="mb-28">
-          <h2 className="section-title">About Me</h2>
-          <p className="section-subtitle text-gray-400">I’m Klodiana (or Klodi), a software developer building AI-powered tools to simplify tech decisions at Super Stack. I currently escaped tutoriall hell and I believe in learning through doing, whether it’s coding, writing, or launching ventures. My newsletter, The Letter, documents the messy, rewarding journey of turning ideas into reality—lessons, resources, and all. When I’m not deep in the stack, you’ll find me exploring how automation and no-code can make life (and work) a little lighter.</p>
+          <p className="section-subtitle text-gray-400">I’m Klodiana - you can call me <span className="text-white">Klodi</span>, a software developer building tools with meaning. I currently escaped tutoriall hell and I believe in learning through doing, whether it’s coding, writing, or launching ventures. When I’m not deep in the stack, you’ll find me exploring how automation and no-code can make life (and work) a little lighter.</p>
         </section>
 
         <section className="mb-28">
@@ -42,7 +25,11 @@ export default function Home() {
           <p className="section-subtitle text-gray-400">Businesses I&apos;m actively working on</p>
 
           <div className="mt-12 space-y-8">
-            <VentureCard title="Super Stack - In Progress" description="Your AI tech stack decision-making." url="#" />
+            <VentureCard title="Bon Pazar" description="Ku çdo gjë gjen vendin e vet. Blej. Shit. Bon Pazar." url="https://bonpazar.vercel.app" />
+          </div>
+
+          <div className="mt-12 space-y-8">
+            <VentureCard title="Taverna Hyjnesha" description="Në zemër të Prishtinës por larg zhurmës, Hyjnesha t'pret." url="https://tavernahyjnesha.com" />
           </div>
         </section>
 
